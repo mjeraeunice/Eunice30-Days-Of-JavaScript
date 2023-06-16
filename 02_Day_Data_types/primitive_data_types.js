@@ -12,3 +12,9 @@ console.log(js == py)             //false
 let lightOn = true
 let lightOff = false
 console.log(lightOn == lightOff) // false
+
+//Null or undefined
+let x = null;
+let y;
+console.log(x); // null
+console.log(y); // undefined

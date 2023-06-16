@@ -3,7 +3,7 @@ let string = 'love'
 let patternOne = /love/ // with out any flag
 let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
 string.match(substring)
-let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+let string2 = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.match('love')) //
 /*
 output
@@ -20,3 +20,11 @@ let regEx = /\d/g // d with escape character means d not a normal d instead acts
 // if there is g after that it means global, search everywhere.
 console.log(txt.match(regEx)) // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
+
+const obj1 = { name: "John", age: 30 };
+const obj2 = { name: "John", age: 30 };
+console.log(obj1.match(obj2));
+
+const arr1 = [1, 2, 3];
+const arr2 = [1, 2, 3];
+console.log(arr1.match(arr2));

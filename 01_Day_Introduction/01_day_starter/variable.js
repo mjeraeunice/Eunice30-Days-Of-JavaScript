@@ -18,3 +18,18 @@ const PI = 3.14              // geometrical constant
 let name = 'Asabeneh',     //name of a person
   job = 'teacher',
   live = 'Finland'
+//Variables can also be declared using var
+var x=10;
+//Destructuring for assignments(objects and arrays)
+//Destructuring for objects
+const {school,insuarance, state,town,weight,isRich } = {
+  school: 'AkiraChix',
+  insuarance: 'CIC',
+  state: 'America',
+  town: 'Newyork',
+  weight: 60,
+  isRich:true
+};
+// Destructuring assignment for arrays
+const [gender,maritalStatus,location] = ['Female', 'Single', 'Denmark'];
+
